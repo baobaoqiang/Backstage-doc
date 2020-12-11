@@ -1,26 +1,14 @@
 apiVersion: backstage.io/v1alpha1
-kind: Template
+kind: Component
 metadata:
-  name: mkdocs
-  title: Mkdocs
-  description: Mkdocs of backstage
+  name: backstage-Mkdocs # [a-zA-Z0-9]
+  description: 自己自定义的component
+  annotations:  # 注释
+    github.com/project-slug: 'backstage/backstage'
+    backstage.io/techdocs-ref: github:https://github.com/Max-blacks/Backstage-doc
   tags:
-    - mkdocs
+    - text
 spec:
-  owner: backstage
-  templater: cookiecutter
-  type: website
-  path: '.'
-  schema:
-    required:
-      - component_id
-      - description
-    properties:
-      component_id:
-        title: Name
-        type: string
-        description: Unique name of the component
-      description:
-        title: Description
-        type: string
-        description: Help others understand what this website is for.
+  type: documentation
+  lifecycle: experimental
+  owner: hjx@example.com
