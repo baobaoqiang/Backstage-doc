@@ -1,0 +1,20 @@
+site_name: Backstage
+copyright: Copyright © 2020 The Project by Backstage. All Rights Reserved
+nav:
+    - '首页': 'index.md'
+    - '介绍': 'introduce.md'
+    - '快速开始': 'quick-start.md'
+    - '系统架构': 'infrastructure.md'
+    - '安装部署':
+      - '在线安装': 'installation/online_installation.md'
+      - '在线升级': 'installation/online_upgrade.md'
+    - '教程': 
+      - '教程1': 'tutorial/a.md'
+      - '教程2': 'tutorial/b.md'
+      - '教程3': 'tutorial/c.md'
+    - '常见问题': 'problem.md'
+    - '开发文档': 'tech-doc.md'
+    - '关于': 'about.md'
+    - '企业版试用': 'enterprise.md'
+theme:
+  name: 'readthedocs'
