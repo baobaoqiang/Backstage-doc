@@ -1,14 +1,11 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: backstage-Mkdocs # [a-zA-Z0-9]
-  description: 自己自定义的component
-  annotations:  # 注释
-    github.com/project-slug: 'backstage/backstage'
+  name: "backstage-mkdocs"
+  description: "backstage的说明文档"
+  annotations:
     backstage.io/techdocs-ref: github:https://github.com/Max-blacks/Backstage-doc
-  tags:
-    - text
 spec:
   type: documentation
   lifecycle: experimental
-  owner: hjx@example.com
+  owner: "wq"
