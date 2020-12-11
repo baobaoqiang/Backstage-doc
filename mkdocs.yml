@@ -18,3 +18,5 @@ nav:
     - '企业版试用': 'enterprise.md'
 theme:
   name: 'readthedocs'
+plugins:
+  - techdocs-core
