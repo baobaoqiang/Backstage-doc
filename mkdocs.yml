@@ -16,5 +16,3 @@ nav:
     - '开发文档': 'tech-doc.md'
     - '关于': 'about.md'
     - '企业版试用': 'enterprise.md'
-theme:
-  name: 'readthedocs'
